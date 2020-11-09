@@ -1,0 +1,2 @@
+D:\Study\CPP\20_11_09\Debug\20_11_09.exe
+D:\Study\CPP\20_11_09\Debug\20_11_09.pdb
