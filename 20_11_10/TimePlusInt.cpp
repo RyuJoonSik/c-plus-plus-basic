@@ -6,18 +6,15 @@
 //	int hour, min, sec;
 //
 //public:
-//	Time(){}
+//	Time() {}
 //	Time(int h, int m, int s) { hour = h; min = m; sec = s; }
 //	void OutTime() {
 //		printf("%d:%d:%d\n", hour, min, sec);
 //	}
+//	const Time operator+(int s)const {
+//		Time t = *this;
 //
-//	// 연산자 함수
-//	const Time operator +(const Time& other) const {
-//		Time t;
-//		t.sec = sec + other.sec;
-//		t.min = min + other.min;
-//		t.hour = hour + other.hour;
+//		t.sec += s;
 //
 //		t.min += t.sec / 60;
 //		t.sec %= 60;
@@ -29,11 +26,9 @@
 //
 //int main()
 //{
-//	Time t1(1, 10, 30);
-//	Time t2(2, 20, 40);
-//	Time t3;
-//
-//	t3 = t1 + t2 + t1;
-//	//t3 = t1.operator+(t2);
-//	t3.OutTime();
+//	Time now(11, 22, 33);
+//	now.OutTime();
+//	// now = now + 1;
+//	now = now.operator+(1);
+//	now.OutTime();
 //}

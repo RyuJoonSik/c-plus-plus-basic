@@ -156,6 +156,11 @@
     <ClCompile Include="StaticFunc.cpp" />
     <ClCompile Include="this.cpp" />
     <ClCompile Include="TimeAdd.cpp" />
+    <ClCompile Include="TimeOpPlus.cpp" />
+    <ClCompile Include="TimePlusInt.cpp" />
+    <ClCompile Include="TimePlusInt2.cpp" />
+    <ClCompile Include="TimePlusInt3.cpp" />
+    <ClCompile Include="TimeRelation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
